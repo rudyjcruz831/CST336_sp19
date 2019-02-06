@@ -1,0 +1,54 @@
+body{
+	background-color: #3c3e42;
+}
+.jumbotron{
+	color: #595982;
+	border-radius: 40%;
+}
+
+header{
+	/*border: solid 5px black;*/
+/*	padding-left: 15%;
+	padding-right: 15%;*/
+	align-content: center
+
+}
+.container{
+	padding: 30px 30px 30px 30px;
+}
+#img1{
+	text-align: center;
+}
+
+#body1{
+/*	border: solid 5px blue;*/
+}
+
+footer{
+/*	border: red 2px solid;
+*/	align-content: center;
+	text-align: center;
+
+}
+textarea{
+	width: 500px;
+	height: 250px;
+
+}
+/*#container{
+
+	align-content: center;
+}*/
+nav{
+
+	color: #536dfe;
+
+}
+/*div{
+	text-align: center;
+}*/
+img{
+	/*border-radius: 30%;*/
+	padding: 30px 30px 30px 30px;
+
+}
