@@ -1,10 +1,10 @@
 body{
-	background-color: #3c3e42;
+/*	background-color: #3c3e42;*/
 }
 .jumbotron{
-	color: #595982;
+/*	color: #595982;
 	border-radius: 40%;
-}
+}*/
 
 header{
 	/*border: solid 5px black;*/
@@ -18,6 +18,7 @@ header{
 }
 #img1{
 	text-align: center;
+
 }
 
 #body1{
@@ -40,7 +41,7 @@ textarea{
 	align-content: center;
 }*/
 nav{
-
+	padding: 30px 30px 30px 30px;
 	color: #536dfe;
 
 }
