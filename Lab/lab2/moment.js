@@ -17,6 +17,8 @@ function printContact(contact){
 	rowDiv.appendChild(pictureColumnDiv);
 //             <img src="http://demos.themes.guide/bodeo/assets/images/users/m101.jpg" alt="Mike Anamendolla" class="rounded-circle mx-auto d-block img-fluid">
 	var pictureImg = document.createElement("img");
+	pictureImg.setAttribute("class" , "rounded-cirlce mx-auto d-block img-fluid");
+	pictureImg.setAttribute("src")
 //         </div>
 //         <div class="col-12 col-sm-6 col-md-9 text-center text-sm-left">
 //             <span class="fa fa-mobile fa-2x text-success float-right pulse" title="online now"></span>

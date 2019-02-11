@@ -1,0 +1,12 @@
+.flex_container{
+	display: flex;
+	flex-direction: column;
+}
+
+search button img{
+	border: 10px;
+}
+
+div header img{
+	border: 100px;
+}
