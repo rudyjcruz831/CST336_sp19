@@ -3,9 +3,9 @@ console.log(randomNumber);
 
 // document.getElementById("numberToGuess").innerHTML = randomNumber;
 
-// var guesses = document.querySelector('#guesses');
+var guesses = document.querySelector('#guesses');
 // var guesses = $('#guesses');
- // $(guesses).click(checkGuess());
+// $(guesses).click(checkGuess());
 
 var lastResult = document.querySelector('#lastResult');
 var lowOrHi = document.querySelector('#lowOrHi');
@@ -16,7 +16,7 @@ var lost = document.querySelector('#lost');
 var wonGames = 0;
 var lostGames = 0;
 
-// var guessSubmit = document.querySelector('.guessSubmit');
+var guessSubmit = document.querySelector('.guessSubmit');
 // var guessSubmit = $('.guessSubmit');
 var guessField = document.querySelector('.guessField');
 
@@ -75,8 +75,8 @@ function checkGuess()
 }
 
 
-// guessSubmit.addEventListener('click', checkGuess);
-$("#guesses").click(checkGuess());
+guessSubmit.addEventListener('click', checkGuess());
+// $("#guesses").click(checkGuess());
 
 
 guesses.style.backgroundColor = 'yellow';
