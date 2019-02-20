@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project2</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+<body>
+	<header>
+		<h1>Form</h1>
+	</header>
+
+	<form id= "form1">
+		<div class="form-row">
+			First Name:
+			<div class="col">
+				<input type="text" class="form-control" placeholder="First name">
+			</div>
+			Last Name:
+			<div class="col">
+				<input type="text" class="form-control" placeholder="Last name">
+			</div>
+		</div>
+
+		<label>
+			1.Which of this is a Data Structure?(Check multiply)
+		</label>
+		<div id= "question1">
+		<!-- The first checkbx -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+				<label class="form-check-label" for="inlineCheckbox1">Tree</label>
+			</div>
+			<!-- The second checkboxes -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+				 <label class="form-check-label" for="inlineCheckbox2">Map</label>
+			</div>
+			<!-- The third checkbox -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+				<label class="form-check-label" for="inlineCheckbox3">List</label>
+			</div>
+			<!-- The fourth checkbox -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option3" >
+				<label class="form-check-label" for="inlineCheckbox4">Variable</label>
+			</div>
+		</div>
+		<div id = "question2">
+			<label>2. Which data structure has constant look up?</label>
+			
+			<div class="form-check>
+				<input  type= "radio" name="gridRadios" id="gridRadios2" value="option2" >
+          		<label class="form-check-label" for="gridRadios2">
+            		Second radio
+          		</label>
+        	</div>
+		</div>
+
+		<div id= buttonDiv>
+			<button id="button1"> Submit</button>
+		</div>
+	</form>
+
+
+
+</body>
+</html>
