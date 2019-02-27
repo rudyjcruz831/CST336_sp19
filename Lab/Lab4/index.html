@@ -1,70 +1,81 @@
-<!DOCTYPE html>
 <html>
 <head>
-	<title>Project2</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AJAX: Sign Up Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
 <body>
-	<header>
-		<h1>Form</h1>
-	</header>
-
-	<form id= "form1">
-		<div class="form-row">
-			First Name:
-			<div class="col">
-				<input type="text" class="form-control" placeholder="First name">
-			</div>
-			Last Name:
-			<div class="col">
-				<input type="text" class="form-control" placeholder="Last name">
-			</div>
-		</div>
-
-		<label>
-			1.Which of this is a Data Structure?(Check multiply)
-		</label>
-		<div id= "question1">
-		<!-- The first checkbx -->
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-				<label class="form-check-label" for="inlineCheckbox1">Tree</label>
-			</div>
-			<!-- The second checkboxes -->
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-				 <label class="form-check-label" for="inlineCheckbox2">Map</label>
-			</div>
-			<!-- The third checkbox -->
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
-				<label class="form-check-label" for="inlineCheckbox3">List</label>
-			</div>
-			<!-- The fourth checkbox -->
-			<div class="form-check form-check-inline">
-				<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option3" >
-				<label class="form-check-label" for="inlineCheckbox4">Variable</label>
-			</div>
-		</div>
-		<div id = "question2">
-			<label>2. Which data structure has constant look up?</label>
-			
-			<div class="form-check>
-				<input  type= "radio" name="gridRadios" id="gridRadios2" value="option2" >
-          		<label class="form-check-label" for="gridRadios2">
-            		Second radio
-          		</label>
-        	</div>
-		</div>
-
-		<div id= buttonDiv>
-			<button id="button1"> Submit</button>
-		</div>
-	</form>
-
-
-
+  <main>
+    <div class="container">
+      <header>
+        <legend>Sign up form:</legend>
+      </header>
+      <div>
+        <label>First Name:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Last Name:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Phone Number:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Zip Code:</label>
+        <input type="text" id="zip" class="form-control">
+        <p id="zipError"></p>
+      </div>
+      <div id="output">
+        <div>
+          <label id="city" class="city">City:</label>
+        </div>
+        <div>
+          <label id="latitude">Latitude:</label>
+        </div>
+        <div>
+          <label id="longitude">Longitude:</label>
+        </div>
+      </div>
+      <div>
+        <label>State:</label>
+        <input type="text" id="state" class="form-control">
+      </div>
+      <div>
+        <label>Select a County:</label>
+        <div>
+          <select id="countySelect" class="custom-select"></select>
+        </div>
+      </div>
+      <div>
+        <label>Desired Username:</label>
+        <input id="newUserName" type="text" class="form-control">
+        <div id="available"></div>
+      </div>
+      <div>
+        <label>Password:</label>
+        <input id="password1" type="password" class="form-control">
+        <div id="passW"></div>
+      </div>
+      <div>
+        <label>Type Password Again:</label>
+        <input id="password2" type="password" class="form-control">
+        <div id="passW2"></div>
+      </div>
+      <button id="button" class="btn btn-primary" type="submit">Submit</button>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/moment.js"></script>
 </body>
 </html>
