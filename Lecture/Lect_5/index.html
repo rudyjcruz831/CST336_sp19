@@ -1,5 +1,35 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
+    <head>
+        <title>Hello</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    </head>
+    <body>
+    
+    <script>
+        console.log("IN script")
+        $(document).ready(function(e) {
+            $.ajax({
+                type: "get",
+                url: "index.php",
+                dataType: "json",
+                data: {},
+                success: function(data) {
+                    console.log(data);
+                },
+                error: function(err){
+                    console.log(arguments);  
+                },
+                complete: function(data, status) { //optional, used for debugging purposes
+                    //console.log(status);
+                }
+            });
+        });
+ 	</script>
+    </body>
+=======
 <head>
 	<title></title>
 </head>
@@ -12,4 +42,5 @@
 	?>
 
 </body>
+>>>>>>> c936cbceee14c0e1e302e1ba101f73dbd39b3a4c
 </html>
