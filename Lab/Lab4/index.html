@@ -1,0 +1,81 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AJAX: Sign Up Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<body>
+  <main>
+    <div class="container">
+      <header>
+        <legend>Sign up form:</legend>
+      </header>
+      <div>
+        <label>First Name:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Last Name:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Phone Number:</label>
+        <input type="text" class="form-control">
+      </div>
+      <div>
+        <label>Zip Code:</label>
+        <input type="text" id="zip" class="form-control">
+        <p id="zipError"></p>
+      </div>
+      <div id="output">
+        <div>
+          <label id="city" class="city">City:</label>
+        </div>
+        <div>
+          <label id="latitude">Latitude:</label>
+        </div>
+        <div>
+          <label id="longitude">Longitude:</label>
+        </div>
+      </div>
+      <div>
+        <label>State:</label>
+        <input type="text" id="state" class="form-control">
+      </div>
+      <div>
+        <label>Select a County:</label>
+        <div>
+          <select id="countySelect" class="custom-select"></select>
+        </div>
+      </div>
+      <div>
+        <label>Desired Username:</label>
+        <input id="newUserName" type="text" class="form-control">
+        <div id="available"></div>
+      </div>
+      <div>
+        <label>Password:</label>
+        <input id="password1" type="password" class="form-control">
+        <div id="passW"></div>
+      </div>
+      <div>
+        <label>Type Password Again:</label>
+        <input id="password2" type="password" class="form-control">
+        <div id="passW2"></div>
+      </div>
+      <button id="button" class="btn btn-primary" type="submit">Submit</button>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/moment.js"></script>
+</body>
+</html>

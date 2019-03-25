@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shopping cart
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+	<header>
+		<h1>Spring Break Shopping </h1>
+	</header>
+	
+	<div id="container">
+		<table>
+			<tr>
+				<th>Product</th>
+				<th>Unit</th>
+				<th>Quantity</th>
+				<th>Total</th>
+			</tr>
+			<tr>
+				<td>Micofiber Beach Towel</td>
+				<td id="price1">30</td>
+				<td><input type="text" id="quant1" size="5"  name=""></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Sunscreen 100SPF, 120ml</td>
+				<td id="price2">$10</td>
+				<td><input type="text" id="quant2" size="5"  name=""></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Ipanema flip -flop Sandals</td>
+				<td id="price3">$10</td>
+				<td><input type="text" id="quant3" size="5"  name=""></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>Shipping</td>
+				<td></td>
+				<td></td>
+				<td id="totalShipping"></td>
+			</tr>
+			<tr>
+				<td>Subtotl</td>
+				<td></td>
+				<td></td>
+				<td id="totalSubtotal"></td>
+			</tr>
+			<tr>
+				<td>Tax(10%)</td>
+				<td></td>
+				<td></td>
+				<td id="totalTax"></td>
+			</tr>
+			<tr>
+				<td>Total</td>
+				<td></td>
+				<td></td>
+				<td id="totalAll"></td>
+			</tr>
+		</table>
+	</div>
+
+	<footer>
+		<h1>Shipping & handling</h1>
+		
+		<div id="drop down">
+			<select id="select1">
+				<option id="op1">Next day shipping $100</option>
+				<option id="op2">3 day shipping $50</option>
+				<option id="op3">7 day shipping $25</option>
+			</select>
+		</div>
+			<label>
+				<input type="checkBox" id="acceptBox" name="">
+				I accept the terms of this purchase.
+			</label>
+		<div><button id="button1">submit</button></div>
+
+	</footer>
+	<script>
+		$(document).ready(function(){
+			$("#button1").click(function(){
+
+				var price1 = +($(this).find('#price1').text());
+				var price2 = parseInt($("#price2").val());
+				var price3 = parseInt($("#price3").val());
+
+				// var quant1 = +($(this).find('#quant1').text());
+				var quant1 = $('#quant1').val();
+				// var realQuant1 = quant1.value;
+				var quant2 =parseInt($('#quant2').val());
+				var quant3 = parseInt($('#quant3').val());
+
+
+				console.log("price1: " +  price1);
+				console.log("price2: " +  price2)
+
+				console.log("quanity: " + quant1);
+				console.log("quanity2: " + quant2);
+
+
+				var total1 = (30 * quant1) + (10 * quant2)+ (10* quant3);
+
+				// var select1 = $(this).find('option:selected').attr("#select1");
+				
+
+				console.log("total:  " + total1);
+				console.log (select1);
+
+				$("#totalAll").html(total1);
+
+
+
+
+
+			});
+
+
+		});
+
+
+	</script>
+
+
+</body>
+</html>

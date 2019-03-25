@@ -1,0 +1,51 @@
+#form1{
+	padding: 50px 150px;
+	border: 2px solid red;
+}
+
+.form-row{
+	padding-bottom: 20px;
+}
+
+header{
+	border: 2px solid black;
+	text-align: center;
+	padding: 35px 20px;
+}
+
+#buttonDiv{
+	padding-top: 35px;
+
+	text-align: center;
+}
+
+#question2{
+	padding-left: 20px;
+}
+
+#question1{
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+#question3{
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#question4{
+	padding-bottom: 20px;
+	padding-left:5px;
+}
+
+#queston5, textarea{
+ 	width:525px;
+ 	height: 150px; 
+}
+#queston5{
+	padding-left: 20px;
+}
+
+
+body{
+	padding: 20px 20px;
+	/*background*/: red;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project2</title>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+	<header>
+		<h1>Form</h1>
+	</header>
+
+	<form id= "form1">
+		<!-- first and last name -->
+		<div class="form-row">
+			First Name:
+			<div class="col">
+				<input type="text" class="form-control" placeholder="First name" id="fname">
+			</div>
+			Last Name:
+			<div class="col">
+				<input type="text" class="form-control" placeholder="Last name" id="lname">
+			</div>
+		</div>
+
+		<label>1. Which fruit(s) do you like?</label>
+		<div id= "question1">
+		<!-- The first checkbx -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" >
+				<label class="form-check-label" for="inlineCheckbox1">banana</label>
+			</div>
+			<!-- The second checkboxes -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+				 <label class="form-check-label" for="inlineCheckbox2">apple</label>
+			</div>
+			<!-- The third checkbox -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3" >
+				<label class="form-check-label" for="inlineCheckbox3">watermelon</label>
+			</div>
+			<!-- The fourth checkbox -->
+			<div class="form-check form-check-inline">
+				<input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option3" >
+				<label class="form-check-label" for="inlineCheckbox4">none</label>
+			</div>
+		</div>
+
+		<label>2. What is your favorite animal?</label>
+		<div id = "question2">
+			<div>
+				<input type="radio" name="radioB" id="radio1">
+        		<label id ="dog" >dog</label>
+        	</div>
+        	<div>
+        		<input type="radio" name="radioB" id="radio2">
+        		<label id ="cat">cat</label>
+        	</div>
+        	
+        	<div>
+        		<input type="radio" name="radioB" id="radio3">
+        		<label id="lion">lion</label>
+			</div>
+		</div>
+
+		<label>3. What is you favorite subject in school?</label>
+		<div id="question3">
+			<select class="form-control form-control-sm">
+  				<option>Select</option>
+  				<option>Science</option>
+  				<option>Math</option>
+  				<option>Computer Science</option>
+  				<option>English</option>
+			</select>
+		</div>
+
+		<label>4. What is your favorite ice cream?</label>
+		<div id="question4">
+    		<div class="col-auto my-1">
+      				<label class="mr-sm-2 sr-only" for="inlineFormCustomSelect">Preference</label>
+      				<select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+        				<option selected>Choose...</option>
+        				<option value="1">chocolate</option>
+        				<option value="2">sherbur</option>
+        				<option value="3">strawberry</option>
+      				</select>
+    		</div>
+		</div>
+
+		<label>Feedback about information</label>
+		<div id="queston5">
+			<textarea placeholder="Feedback"></textarea>
+		</div>
+
+		<div id= buttonDiv>
+			<button id="button1"> Submit</button>
+		</div>
+	</form>
+
+	<div id = "addImgHere"></div>
+
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/moment.js"></script>
+
+
+	<!-- <script type="text/javascript" src="js/moment.js"></script> -->
+</html>
