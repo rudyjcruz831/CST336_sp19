@@ -2,3 +2,9 @@
 
 $db = getBDConnection();
 
+function getDBConnection($name)
+{
+
+}
+
+?>
