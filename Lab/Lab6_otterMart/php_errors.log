@@ -1,0 +1,120 @@
+[26-Mar-2019 17:55:35 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 17:55:35 UTC] PHP Stack trace:
+[26-Mar-2019 17:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 17:55:35 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 17:55:35 UTC] PHP Stack trace:
+[26-Mar-2019 17:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 17:55:35 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 17:55:35 UTC] PHP Stack trace:
+[26-Mar-2019 17:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 17:55:39 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 17:55:39 UTC] PHP Stack trace:
+[26-Mar-2019 17:55:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 17:55:39 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 17:55:39 UTC] PHP Stack trace:
+[26-Mar-2019 17:55:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 17:55:39 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 17:55:39 UTC] PHP Stack trace:
+[26-Mar-2019 17:55:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:02:19 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:02:19 UTC] PHP Stack trace:
+[26-Mar-2019 18:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:02:19 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:02:19 UTC] PHP Stack trace:
+[26-Mar-2019 18:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:02:19 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:02:19 UTC] PHP Stack trace:
+[26-Mar-2019 18:02:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:09:04 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:09:04 UTC] PHP Stack trace:
+[26-Mar-2019 18:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:09:04 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:09:04 UTC] PHP Stack trace:
+[26-Mar-2019 18:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:09:04 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:09:04 UTC] PHP Stack trace:
+[26-Mar-2019 18:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:12:15 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:12:15 UTC] PHP Stack trace:
+[26-Mar-2019 18:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:12:15 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:12:15 UTC] PHP Stack trace:
+[26-Mar-2019 18:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:12:15 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:12:15 UTC] PHP Stack trace:
+[26-Mar-2019 18:12:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:13:32 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:13:32 UTC] PHP Stack trace:
+[26-Mar-2019 18:13:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:13:32 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:13:32 UTC] PHP Stack trace:
+[26-Mar-2019 18:13:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:13:32 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:13:32 UTC] PHP Stack trace:
+[26-Mar-2019 18:13:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:26:43 UTC] PHP Warning:  include(/CST336_sp19/Lab/Lab6_otterMart/dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:26:43 UTC] PHP Stack trace:
+[26-Mar-2019 18:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:26:43 UTC] PHP Warning:  include(): Failed opening '/CST336_sp19/Lab/Lab6_otterMart/dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:26:43 UTC] PHP Stack trace:
+[26-Mar-2019 18:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:26:43 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:26:43 UTC] PHP Stack trace:
+[26-Mar-2019 18:26:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:27:55 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:27:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:27:55 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:27:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:27:55 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:27:55 UTC] PHP Stack trace:
+[26-Mar-2019 18:27:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:28:43 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:28:43 UTC] PHP Stack trace:
+[26-Mar-2019 18:28:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:28:43 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:28:43 UTC] PHP Stack trace:
+[26-Mar-2019 18:28:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:28:43 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:28:43 UTC] PHP Stack trace:
+[26-Mar-2019 18:28:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:28:54 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:28:54 UTC] PHP Stack trace:
+[26-Mar-2019 18:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:28:54 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 18:28:54 UTC] PHP Stack trace:
+[26-Mar-2019 18:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 18:28:54 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 18:28:54 UTC] PHP Stack trace:
+[26-Mar-2019 18:28:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 20:41:04 UTC] PHP Warning:  include(dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 20:41:04 UTC] PHP Stack trace:
+[26-Mar-2019 20:41:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 20:41:04 UTC] PHP Warning:  include(): Failed opening 'dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 3
+[26-Mar-2019 20:41:04 UTC] PHP Stack trace:
+[26-Mar-2019 20:41:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 20:41:04 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 20:41:04 UTC] PHP Stack trace:
+[26-Mar-2019 20:41:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 20:41:27 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 20:41:27 UTC] PHP Stack trace:
+[26-Mar-2019 20:41:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:19:53 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 21:19:53 UTC] PHP Stack trace:
+[26-Mar-2019 21:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:20:12 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 21:20:12 UTC] PHP Stack trace:
+[26-Mar-2019 21:20:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:20:33 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 21:20:33 UTC] PHP Stack trace:
+[26-Mar-2019 21:20:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:28:16 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 21:28:16 UTC] PHP Stack trace:
+[26-Mar-2019 21:28:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:28:18 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 21:28:18 UTC] PHP Stack trace:
+[26-Mar-2019 21:28:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:28:37 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
+[26-Mar-2019 21:28:37 UTC] PHP Stack trace:
+[26-Mar-2019 21:28:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0

@@ -3,17 +3,20 @@
     <head>
         <title>OtterMart Product Search </title>
         <link rel="stylesheet" href="css/style.css" type="text/css" />
-        <script type="text/javascript" src="<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script>
+        /*global $*/
         $(document).ready(function(){
-                $.ajax({
+            $.ajax({
                 type: "GET",
                 url: "api/getCategories.php",
                 dataType: "json",
-                success: function(data, status){
-                    
+                success: function(data, status)
+                {
+                    data.forEach(function(key){
+                        $("[name=category]").append("<option value = " + key["catId"]+ ">" + key["catName"] +  "</option>");
+                    });
                 }
             });
         });
