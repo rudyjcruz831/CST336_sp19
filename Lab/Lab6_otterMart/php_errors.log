@@ -118,3 +118,158 @@
 [26-Mar-2019 21:28:37 UTC] PHP Fatal error:  Call to undefined function getDatabasesConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php on line 5
 [26-Mar-2019 21:28:37 UTC] PHP Stack trace:
 [26-Mar-2019 21:28:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[26-Mar-2019 21:54:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(28): PDO->__construct('mysql:host=0.0....', 'rudyjcruz', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 28
+[26-Mar-2019 22:46:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(28): PDO->__construct('mysql:host=0.0....', 'rudyjcruz', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 28
+[26-Mar-2019 23:00:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(28): PDO->__construct('mysql:host=0.0....', 'rudyjcruz', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 28
+[27-Mar-2019 01:00:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'crime_tips'' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:28
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(28): PDO->__construct('mysql:host=0.0....', 'rudyjcruz', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 28
+[27-Mar-2019 01:06:50 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 31
+[27-Mar-2019 01:06:50 UTC] PHP Stack trace:
+[27-Mar-2019 01:06:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:06:50 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:09:25 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 31
+[27-Mar-2019 01:09:25 UTC] PHP Stack trace:
+[27-Mar-2019 01:09:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:09:25 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:39:38 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 16
+[27-Mar-2019 01:39:38 UTC] PHP Stack trace:
+[27-Mar-2019 01:39:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:39:38 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:39:38 UTC] PHP   3. log() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:16
+[27-Mar-2019 01:39:43 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 16
+[27-Mar-2019 01:39:43 UTC] PHP Stack trace:
+[27-Mar-2019 01:39:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:39:43 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:39:43 UTC] PHP   3. log() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:16
+[27-Mar-2019 01:39:43 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 16
+[27-Mar-2019 01:39:43 UTC] PHP Stack trace:
+[27-Mar-2019 01:39:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:39:43 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:39:43 UTC] PHP   3. log() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:16
+[27-Mar-2019 01:39:44 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 16
+[27-Mar-2019 01:39:44 UTC] PHP Stack trace:
+[27-Mar-2019 01:39:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:39:44 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:39:44 UTC] PHP   3. log() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:16
+[27-Mar-2019 01:55:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(29): PDO->__construct('mysql:host=0.0....', '', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 29
+[27-Mar-2019 01:56:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(29): PDO->__construct('mysql:host=0.0....', '', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 29
+[27-Mar-2019 01:57:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(29): PDO->__construct('mysql:host=0.0....', '', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 29
+[27-Mar-2019 01:57:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php(29): PDO->__construct('mysql:host=0.0....', '', '')
+#1 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php(5): getDatabaseConnection('ottermart')
+#2 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 29
+[27-Mar-2019 01:58:58 UTC] PHP Warning:  print_r() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php on line 22
+[27-Mar-2019 01:58:58 UTC] PHP Stack trace:
+[27-Mar-2019 01:58:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:0
+[27-Mar-2019 01:58:58 UTC] PHP   2. getDatabaseConnection() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getCategories.php:5
+[27-Mar-2019 01:58:58 UTC] PHP   3. print_r() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/dbConnection.php:22
+[27-Mar-2019 06:13:26 UTC] PHP Warning:  include(../dbConnecttion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 2
+[27-Mar-2019 06:13:26 UTC] PHP Stack trace:
+[27-Mar-2019 06:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:0
+[27-Mar-2019 06:13:26 UTC] PHP Warning:  include(): Failed opening '../dbConnecttion.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 2
+[27-Mar-2019 06:13:26 UTC] PHP Stack trace:
+[27-Mar-2019 06:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:0
+[27-Mar-2019 06:13:26 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 4
+[27-Mar-2019 06:13:26 UTC] PHP Stack trace:
+[27-Mar-2019 06:13:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:0
+[27-Mar-2019 06:21:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:21:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:21:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:21:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:21:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:36:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:36:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:37:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:41:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:41:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:42:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 06:59:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'productName LIKE : productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
+[27-Mar-2019 07:00:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ': productName' at line 1' in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php(15): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Lab/Lab6_otterMart/api/getSearchResults.php on line 15
