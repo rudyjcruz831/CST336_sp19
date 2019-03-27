@@ -52,7 +52,7 @@
                     dataType: "json",
                     data : {"productId" : $(this).attr("id")},
                     success: function(data, status){
-                        if(data.length != 0){
+                        if(data.length != 0){ // checks if the API returns empty list
                             $("#history").html("");
                             $("#history").append(data[0]['productName'] + "<br />");
                             $("#history").append("<img src='" + data[0]['productImage'] + "' width='200' /> <br />");

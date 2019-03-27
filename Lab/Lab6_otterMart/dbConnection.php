@@ -2,13 +2,6 @@
 
 function getDatabaseConnection()
 {
-    // $connParts = parse_url($url);
-
-    // $host = $connParts['host'];
-    // $dbname = ltrim($connParts['path'], '/');
-    // $username = $connParts['user'];
-    // $password = $connParts['pass'];
-    
     $connUrl = getenv('JAWSDB_MARIA_URL');
     $hasConnUrl = !empty($connUrl);
     

@@ -3,11 +3,15 @@
     include '../dbConnection.php';
     
     $conn = getDatabaseConnection("ottermart");
-    
-    $sql = "SELECT * FROM om_product NATURAL JOIN om_purchase WHERE productId = :pId";   
-
+    $productId = $_GET['productId'];
     $np =array();
-    $np['pId'] = $productId;
+    $np[':pId'] = $productId;
+    
+    
+    $sql = "SELECT *
+            FROM om_product
+            NATURAL JOIN om_purchase 
+            WHERE productId = :pId";   
     
     $stmt = $conn->prepare($sql);
     $stmt->execute($np);
