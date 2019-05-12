@@ -1,0 +1,266 @@
+[30-Apr-2019 10:32:09 UTC] PHP Warning:  include(../dbConncetions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 10:32:09 UTC] PHP Stack trace:
+[30-Apr-2019 10:32:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 10:32:09 UTC] PHP Warning:  include(): Failed opening '../dbConncetions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 10:32:09 UTC] PHP Stack trace:
+[30-Apr-2019 10:32:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 10:32:09 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 4
+[30-Apr-2019 10:32:09 UTC] PHP Stack trace:
+[30-Apr-2019 10:32:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 10:33:32 UTC] PHP Warning:  include(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 10:33:32 UTC] PHP Stack trace:
+[30-Apr-2019 10:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 10:33:32 UTC] PHP Warning:  include(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 10:33:32 UTC] PHP Stack trace:
+[30-Apr-2019 10:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 10:33:32 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 4
+[30-Apr-2019 10:33:32 UTC] PHP Stack trace:
+[30-Apr-2019 10:33:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 10:34:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '*' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:10:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:10:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:11:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:15:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 19
+[30-Apr-2019 19:17:21 UTC] PHP Parse error:  syntax error, unexpected '$email1' (T_VARIABLE) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:17:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 19
+[30-Apr-2019 19:19:25 UTC] PHP Warning:  include(../dbConnetions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 19:19:25 UTC] PHP Stack trace:
+[30-Apr-2019 19:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 19:19:25 UTC] PHP Warning:  include(): Failed opening '../dbConnetions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 19:19:25 UTC] PHP Stack trace:
+[30-Apr-2019 19:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 19:19:25 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 4
+[30-Apr-2019 19:19:25 UTC] PHP Stack trace:
+[30-Apr-2019 19:19:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 19:20:36 UTC] PHP Warning:  include(../dbConnetion.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 19:20:36 UTC] PHP Stack trace:
+[30-Apr-2019 19:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 19:20:36 UTC] PHP Warning:  include(): Failed opening '../dbConnetion.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 2
+[30-Apr-2019 19:20:36 UTC] PHP Stack trace:
+[30-Apr-2019 19:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 19:20:36 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 4
+[30-Apr-2019 19:20:36 UTC] PHP Stack trace:
+[30-Apr-2019 19:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[30-Apr-2019 19:23:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:38:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 15
+[30-Apr-2019 19:40:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:42:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'image' in 'field list'' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(11): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 11
+[30-Apr-2019 19:42:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 15
+[01-May-2019 05:18:27 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 13
+[01-May-2019 05:18:27 UTC] PHP Stack trace:
+[01-May-2019 05:18:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 05:18:42 UTC] PHP Fatal error:  Using $this when not in object context in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 13
+[01-May-2019 05:18:42 UTC] PHP Stack trace:
+[01-May-2019 05:18:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 05:20:18 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 16
+[01-May-2019 05:20:18 UTC] PHP Stack trace:
+[01-May-2019 05:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 05:32:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:32:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:33:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:34:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '''' at line 1' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php(12): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:36:47 UTC] PHP Warning:  base64_encode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 15
+[01-May-2019 05:36:47 UTC] PHP Stack trace:
+[01-May-2019 05:36:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 05:36:47 UTC] PHP   2. base64_encode() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:15
+[01-May-2019 05:56:50 UTC] PHP Fatal error:  Undefined class constant 'PARAM_BLOB' in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:56:50 UTC] PHP Stack trace:
+[01-May-2019 05:56:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 05:59:20 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:59:20 UTC] PHP Stack trace:
+[01-May-2019 05:59:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 05:59:48 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 05:59:48 UTC] PHP Stack trace:
+[01-May-2019 05:59:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:00:02 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 06:00:02 UTC] PHP Stack trace:
+[01-May-2019 06:00:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:02:09 UTC] PHP Fatal error:  Cannot pass parameter 2 by reference in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 12
+[01-May-2019 06:02:09 UTC] PHP Stack trace:
+[01-May-2019 06:02:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:03:06 UTC] PHP Warning:  base64_encode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 17
+[01-May-2019 06:03:06 UTC] PHP Stack trace:
+[01-May-2019 06:03:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:03:06 UTC] PHP   2. base64_encode() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:17
+[01-May-2019 06:21:02 UTC] PHP Warning:  Header may not contain NUL bytes in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 20
+[01-May-2019 06:21:02 UTC] PHP Stack trace:
+[01-May-2019 06:21:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:21:02 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:20
+[01-May-2019 06:22:53 UTC] PHP Warning:  json_encode() expects parameter 2 to be long, string given in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 23
+[01-May-2019 06:22:53 UTC] PHP Stack trace:
+[01-May-2019 06:22:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:22:53 UTC] PHP   2. json_encode() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:23
+[01-May-2019 06:23:52 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 24
+[01-May-2019 06:25:21 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 24
+[01-May-2019 06:28:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:17) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 21
+[01-May-2019 06:28:15 UTC] PHP Stack trace:
+[01-May-2019 06:28:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:28:15 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:21
+[01-May-2019 06:28:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:17) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 21
+[01-May-2019 06:28:39 UTC] PHP Stack trace:
+[01-May-2019 06:28:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:28:39 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:21
+[01-May-2019 06:29:50 UTC] PHP Warning:  base64_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 16
+[01-May-2019 06:29:50 UTC] PHP Stack trace:
+[01-May-2019 06:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:29:50 UTC] PHP   2. base64_decode() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:16
+[01-May-2019 06:32:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:18) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 19
+[01-May-2019 06:32:52 UTC] PHP Stack trace:
+[01-May-2019 06:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:32:52 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:19
+[01-May-2019 06:33:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:18) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 20
+[01-May-2019 06:33:09 UTC] PHP Stack trace:
+[01-May-2019 06:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:33:09 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:20
+[01-May-2019 06:33:19 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:18) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 20
+[01-May-2019 06:33:19 UTC] PHP Stack trace:
+[01-May-2019 06:33:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:33:19 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:20
+[01-May-2019 06:33:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:18) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 20
+[01-May-2019 06:33:52 UTC] PHP Stack trace:
+[01-May-2019 06:33:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:33:52 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:20
+[01-May-2019 06:33:52 UTC] PHP Warning:  base64_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 22
+[01-May-2019 06:33:52 UTC] PHP Stack trace:
+[01-May-2019 06:33:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:33:52 UTC] PHP   2. base64_decode() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:22
+[01-May-2019 06:33:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:18) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 20
+[01-May-2019 06:33:59 UTC] PHP Stack trace:
+[01-May-2019 06:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:33:59 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:20
+[01-May-2019 06:33:59 UTC] PHP Warning:  base64_decode() expects parameter 1 to be string, array given in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 22
+[01-May-2019 06:33:59 UTC] PHP Stack trace:
+[01-May-2019 06:33:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:33:59 UTC] PHP   2. base64_decode() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:22
+[01-May-2019 06:43:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:18) in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 20
+[01-May-2019 06:43:36 UTC] PHP Stack trace:
+[01-May-2019 06:43:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 06:43:36 UTC] PHP   2. header() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:20
+[01-May-2019 08:20:53 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 10
+[01-May-2019 08:20:53 UTC] PHP Stack trace:
+[01-May-2019 08:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:20:53 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 10
+[01-May-2019 08:20:53 UTC] PHP Stack trace:
+[01-May-2019 08:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:20:53 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 11
+[01-May-2019 08:20:53 UTC] PHP Stack trace:
+[01-May-2019 08:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:20:53 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:11
+[01-May-2019 08:20:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 14
+[01-May-2019 08:20:53 UTC] PHP Stack trace:
+[01-May-2019 08:20:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:00 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 10
+[01-May-2019 08:21:00 UTC] PHP Stack trace:
+[01-May-2019 08:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:00 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 10
+[01-May-2019 08:21:00 UTC] PHP Stack trace:
+[01-May-2019 08:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:00 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 11
+[01-May-2019 08:21:00 UTC] PHP Stack trace:
+[01-May-2019 08:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:00 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:11
+[01-May-2019 08:21:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 14
+[01-May-2019 08:21:00 UTC] PHP Stack trace:
+[01-May-2019 08:21:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:20 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 11
+[01-May-2019 08:21:20 UTC] PHP Stack trace:
+[01-May-2019 08:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:20 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:11
+[01-May-2019 08:21:20 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 14
+[01-May-2019 08:21:20 UTC] PHP Stack trace:
+[01-May-2019 08:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:41 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 11
+[01-May-2019 08:21:41 UTC] PHP Stack trace:
+[01-May-2019 08:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:21:41 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:11
+[01-May-2019 08:21:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 14
+[01-May-2019 08:21:41 UTC] PHP Stack trace:
+[01-May-2019 08:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:28:07 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 11
+[01-May-2019 08:28:07 UTC] PHP Stack trace:
+[01-May-2019 08:28:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:28:07 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:11
+[01-May-2019 08:28:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 14
+[01-May-2019 08:28:07 UTC] PHP Stack trace:
+[01-May-2019 08:28:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:28:12 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 11
+[01-May-2019 08:28:12 UTC] PHP Stack trace:
+[01-May-2019 08:28:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 08:28:12 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:11
+[01-May-2019 08:28:12 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php on line 14
+[01-May-2019 08:28:12 UTC] PHP Stack trace:
+[01-May-2019 08:28:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/setImages.php:0
+[01-May-2019 21:18:24 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:18:24 UTC] PHP Stack trace:
+[01-May-2019 21:18:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:19:29 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:19:29 UTC] PHP Stack trace:
+[01-May-2019 21:19:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:20:04 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:20:04 UTC] PHP Stack trace:
+[01-May-2019 21:20:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:21:45 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:21:45 UTC] PHP Stack trace:
+[01-May-2019 21:21:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:25:09 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:25:09 UTC] PHP Stack trace:
+[01-May-2019 21:25:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:25:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:25:13 UTC] PHP Stack trace:
+[01-May-2019 21:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:25:13 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:25:13 UTC] PHP Stack trace:
+[01-May-2019 21:25:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:25:14 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:25:14 UTC] PHP Stack trace:
+[01-May-2019 21:25:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[01-May-2019 21:25:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[01-May-2019 21:25:15 UTC] PHP Stack trace:
+[01-May-2019 21:25:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0
+[04-May-2019 19:59:31 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php on line 6
+[04-May-2019 19:59:31 UTC] PHP Stack trace:
+[04-May-2019 19:59:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/api/getImages.php:0

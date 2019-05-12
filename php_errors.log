@@ -1,0 +1,123 @@
+[01-May-2019 08:51:47 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 65
+[01-May-2019 08:51:47 UTC] PHP Stack trace:
+[01-May-2019 08:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 08:51:47 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 65
+[01-May-2019 08:51:47 UTC] PHP Stack trace:
+[01-May-2019 08:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 08:51:47 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 69
+[01-May-2019 08:51:47 UTC] PHP Stack trace:
+[01-May-2019 08:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 08:52:07 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 69
+[01-May-2019 08:52:07 UTC] PHP Stack trace:
+[01-May-2019 08:52:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 08:57:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 69
+[01-May-2019 08:57:43 UTC] PHP Stack trace:
+[01-May-2019 08:57:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 08:59:56 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 70
+[01-May-2019 09:00:35 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 69
+[01-May-2019 09:00:35 UTC] PHP Stack trace:
+[01-May-2019 09:00:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 09:02:51 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 58
+[01-May-2019 09:02:59 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 57
+[01-May-2019 09:02:59 UTC] PHP Stack trace:
+[01-May-2019 09:02:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 09:03:28 UTC] PHP Parse error:  syntax error, unexpected '$dbConn' (T_VARIABLE) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 58
+[01-May-2019 09:03:42 UTC] PHP Fatal error:  Cannot redeclare getDatabaseConnection() (previously declared in /home/ubuntu/workspace/CST336_sp19/Project5/dbConnection.php:3) in /home/ubuntu/workspace/CST336_sp19/Project5/dbConnection.php on line 3
+[01-May-2019 09:03:42 UTC] PHP Stack trace:
+[01-May-2019 09:03:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 09:04:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:06:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(75): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 75
+[01-May-2019 09:11:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:76
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(76): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 76
+[01-May-2019 09:13:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:14:51 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 69
+[01-May-2019 09:14:51 UTC] PHP Stack trace:
+[01-May-2019 09:14:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 09:14:57 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 69
+[01-May-2019 09:14:57 UTC] PHP Stack trace:
+[01-May-2019 09:14:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Project5/index.php:0
+[01-May-2019 09:18:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:19:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:20:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:22:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:24:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:24:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:27:27 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:28:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:29:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:74
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(74): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 74
+[01-May-2019 09:36:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(75): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 75
+[01-May-2019 09:37:54 UTC] PHP Parse error:  syntax error, unexpected ':', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 73
+[01-May-2019 09:38:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',  )' at line 2' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(75): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 75
+[01-May-2019 09:38:41 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 73
+[01-May-2019 09:39:17 UTC] PHP Parse error:  syntax error, unexpected ':', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 73
+[01-May-2019 09:39:29 UTC] PHP Parse error:  syntax error, unexpected ':', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 73
+[01-May-2019 09:39:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ',  )' at line 2' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:75
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(75): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 75
+[01-May-2019 09:40:40 UTC] PHP Parse error:  syntax error, unexpected ':', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 73
+[01-May-2019 09:46:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ', )' at line 2' in /home/ubuntu/workspace/CST336_sp19/Project5/index.php:76
+Stack trace:
+#0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(76): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 76
