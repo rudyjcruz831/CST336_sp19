@@ -15,4 +15,19 @@ $(document).ready(function() {$
     $("#logOutButton").on('click', function(){
         console.log("Log out Butten press");
     });// end of logOutBotton
+    $.ajax({
+        type: "GET",
+        url: "index.php",
+        dataType: "json",
+        success:function(data, status){
+            console.log(data);
+        } 
+    }); // end of ajax call
+    
+// <?php
+//  session_start();
+//  $_SESSION['first'] = 'rudy';
+ 
+// ?>
+    
 }); // end of docuemtn ready

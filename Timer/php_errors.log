@@ -1,0 +1,3 @@
+[12-May-2019 09:56:24 UTC] PHP Fatal error:  Class 'dhb' not found in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 5
+[12-May-2019 09:56:24 UTC] PHP Stack trace:
+[12-May-2019 09:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0

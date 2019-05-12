@@ -33,10 +33,61 @@
                 <input type="password" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Password">
               </div>
               <button id="submitButton" type="submit" class="btn btn-dark">Log In</button>
-              <small>Not Register?<a class='updateLink' href="#"> Sign up</a></small>
+              
             </form>
+            <small>Not Register?<a class='updateLink1' href="#"> Sign up</a></small>
+        </div>
+        
+        <div class="modal" id="signUpmodel" role="dialog" aria-labelledby="updateListingModal" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header" >
+                  <a class="navbar-brand" href="../index.html">
+                    <img src="../img/timer.png" width="30" height="30" class="d-inline-block align-top" background= "color: gray;" alt="">
+                  </a>
+
+                  <h5 class="modal-title"  id="signUpmodel">Sign Up</h5>
+
+                </div>
+              <div class="modal-body" id="manageTimeBody">
+                <form id="form2">
+                  <div class="form-group row">
+                    <div class="col">
+                      <input type="text" class="form-control form-control-sm" placeholder="First name">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control form-control-sm" placeholder="Last name">
+                    </div>
+                  </div>
+                  <div class="form-group" >
+                    <!--<label for="exampleInputEmail1">Email address</label>-->
+                    <input type="email" class="form-control form-control-sm" id="inputEmailmodal" aria-describedby="emailHelp" placeholder="Enter email">
+                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                  </div>
+                  <div class="form-group">
+                    <!--<label for="exampleInputPassword1">Password</label>-->
+                    <input type="password" class="form-control form-control-sm" id="InputPasswordmodel" placeholder="Password">
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-pimary" data-dismiss="modal" id="cancelButton">Cancel</button>
+                  <button type="button" class="btn btn-success" id="timeEnterbutton">Sign Up</button>
+              </div>
+            </div>
+          </div>
         </div>
         
     
     </body>
+
+
+
 </html>
+
+<!--<?php-->
+<!--    session_start();-->
+<!--    $_SESSION['first'] = 'juan';-->
+<!--    echo $_SESSION['name'];-->
+    
+<!--?>-->

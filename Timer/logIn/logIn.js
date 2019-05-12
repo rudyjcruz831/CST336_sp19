@@ -1,16 +1,19 @@
-$(document).on('click', '.updateLink', function() {
+$(document).on('click', '.updateLink1', function() {
     console.log("Update link clicked");
-    $("#manageTime").modal("show");
-    // console.log($("name[appt1]").val());
-    // $("#timeEnterbutton").on('click' , function(){
-    //         console.log("Start Time: " + $('#appt1').val());    
-    //         console.log("End Time: "+  $('#appt2').val());
-    //         console.log("Date: " + $('#appt0').val());
-    // })// end of timeEnterButton
-    // $("#logOutButton").on('click', function(){
-        // console.log("Log out Butten press");
-    // });// end of logOutBotton
+    $("#signUpmodel").modal("show");
+
 });
 $(document).ready(function(){
     
+    
+    
+    $.ajax({
+        type: "POST",
+        url: "logIn.php",
+        dataType: "json",
+        data : {},
+        success:function(data, status){
+            console.log(data);
+        } 
+    });//end of ejax call to logIn.php
 }); // end of document ready 

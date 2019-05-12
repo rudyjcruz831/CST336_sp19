@@ -1,10 +1,16 @@
 #LogInBody{
     /*border: 2px red solid;*/
-    margin: 100px;
-    padding: 50px;
+    padding-top: 5%;
+    margin: 12%;
+    padding: 3%;
     background-image: linear-gradient(#f7a23b, #f7b76a , #eacba6) ;
     /*font-family: monospace;*/
+
 }
+/*#LogInBody input{*/
+    /*margin:20px;  */
+    /*margin-right:30px;*/
+/*}*/
 
 /*#submitButton{*/
 /*    background-color: red;*/
