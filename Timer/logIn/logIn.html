@@ -32,8 +32,7 @@
                 <label for="exampleInputPassword1">Password</label>
                 <input type="password" class="form-control form-control-sm" id="exampleInputPassword1" placeholder="Password">
               </div>
-              <button id="submitButton" type="submit" class="btn btn-dark">Log In</button>
-              
+              <button id="logInButton" type="submit" class="btn btn-dark">Log In</button>
             </form>
             <small>Not Register?<a class='updateLink1' href="#"> Sign up</a></small>
         </div>
@@ -53,26 +52,25 @@
                 <form id="form2">
                   <div class="form-group row">
                     <div class="col">
-                      <input type="text" class="form-control form-control-sm" placeholder="First name">
+                      <input id="firstNameModal" type="text" class="form-control form-control-sm" placeholder="First name">
                     </div>
                     <div class="col">
-                      <input type="text" class="form-control form-control-sm" placeholder="Last name">
+                      <input id="lastNameModal" type="text" class="form-control form-control-sm" placeholder="Last name">
                     </div>
                   </div>
                   <div class="form-group" >
                     <!--<label for="exampleInputEmail1">Email address</label>-->
-                    <input type="email" class="form-control form-control-sm" id="inputEmailmodal" aria-describedby="emailHelp" placeholder="Enter email">
-                    <!--<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>-->
+                    <input type="email" class="form-control form-control-sm" id="inputEmailModal" aria-describedby="emailHelp" placeholder="Enter email">
                   </div>
                   <div class="form-group">
                     <!--<label for="exampleInputPassword1">Password</label>-->
-                    <input type="password" class="form-control form-control-sm" id="InputPasswordmodel" placeholder="Password">
+                    <input type="password" class="form-control form-control-sm" id="inputPasswordModel" placeholder="Password">
                   </div>
                 </form>
               </div>
               <div class="modal-footer">
                   <button type="button" class="btn btn-pimary" data-dismiss="modal" id="cancelButton">Cancel</button>
-                  <button type="button" class="btn btn-success" id="timeEnterbutton">Sign Up</button>
+                  <button type="button" class="btn btn-success" id="signUpbuttonModel">Sign Up</button>
               </div>
             </div>
           </div>
@@ -84,10 +82,3 @@
 
 
 </html>
-
-<!--<?php-->
-<!--    session_start();-->
-<!--    $_SESSION['first'] = 'juan';-->
-<!--    echo $_SESSION['name'];-->
-    
-<!--?>-->

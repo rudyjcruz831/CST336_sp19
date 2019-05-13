@@ -1,3 +1,144 @@
 [12-May-2019 09:56:24 UTC] PHP Fatal error:  Class 'dhb' not found in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 5
 [12-May-2019 09:56:24 UTC] PHP Stack trace:
 [12-May-2019 09:56:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 20:30:39 UTC] PHP Fatal error:  Access to undeclared static property: Session::$ in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 5
+[12-May-2019 20:30:39 UTC] PHP Stack trace:
+[12-May-2019 20:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 20:30:39 UTC] PHP   2. Session::start() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:7
+[12-May-2019 20:30:39 UTC] PHP Fatal error:  Access to undeclared static property: Session::$ in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 5
+[12-May-2019 20:30:39 UTC] PHP Stack trace:
+[12-May-2019 20:30:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 20:30:39 UTC] PHP   2. Session::start() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:7
+[12-May-2019 20:31:07 UTC] PHP Fatal error:  Access to undeclared static property: Session::$ in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 5
+[12-May-2019 20:31:07 UTC] PHP Stack trace:
+[12-May-2019 20:31:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 20:31:07 UTC] PHP   2. Session::start() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:7
+[12-May-2019 22:22:11 UTC] PHP Warning:  include_once(../dbConnections.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 3
+[12-May-2019 22:22:11 UTC] PHP Stack trace:
+[12-May-2019 22:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 22:22:11 UTC] PHP Warning:  include_once(): Failed opening '../dbConnections.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 3
+[12-May-2019 22:22:11 UTC] PHP Stack trace:
+[12-May-2019 22:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 22:22:11 UTC] PHP Fatal error:  Class 'Dbh' not found in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 5
+[12-May-2019 22:22:11 UTC] PHP Stack trace:
+[12-May-2019 22:22:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 22:22:48 UTC] PHP Fatal error:  Call to protected method Dbh::getDatabaseConnection() from context '' in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 6
+[12-May-2019 22:22:48 UTC] PHP Stack trace:
+[12-May-2019 22:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 23:43:47 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 107
+[12-May-2019 23:43:47 UTC] PHP Stack trace:
+[12-May-2019 23:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 23:43:47 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 107
+[12-May-2019 23:43:47 UTC] PHP Stack trace:
+[12-May-2019 23:43:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[12-May-2019 23:44:20 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 107
+[12-May-2019 23:44:20 UTC] PHP Stack trace:
+[12-May-2019 23:44:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:02:17 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 107
+[13-May-2019 00:02:17 UTC] PHP Stack trace:
+[13-May-2019 00:02:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:41:42 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 107
+[13-May-2019 00:41:42 UTC] PHP Stack trace:
+[13-May-2019 00:41:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:50:35 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:50:35 UTC] PHP Stack trace:
+[13-May-2019 00:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:50:35 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:50:35 UTC] PHP Stack trace:
+[13-May-2019 00:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:51:45 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:51:45 UTC] PHP Stack trace:
+[13-May-2019 00:51:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:51:46 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:51:46 UTC] PHP Stack trace:
+[13-May-2019 00:51:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:53:20 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:53:20 UTC] PHP Stack trace:
+[13-May-2019 00:53:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:53:58 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:53:58 UTC] PHP Stack trace:
+[13-May-2019 00:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:54:02 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:54:02 UTC] PHP Stack trace:
+[13-May-2019 00:54:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:54:04 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:54:04 UTC] PHP Stack trace:
+[13-May-2019 00:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:54:04 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:54:04 UTC] PHP Stack trace:
+[13-May-2019 00:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:55:18 UTC] PHP Fatal error:  Call to a member function getMessage() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 92
+[13-May-2019 00:55:18 UTC] PHP Stack trace:
+[13-May-2019 00:55:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 00:58:44 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 00:58:44 UTC] PHP Stack trace:
+[13-May-2019 00:58:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:01:43 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 01:01:43 UTC] PHP Stack trace:
+[13-May-2019 01:01:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:04:28 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 01:04:28 UTC] PHP Stack trace:
+[13-May-2019 01:04:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:04:49 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 01:04:49 UTC] PHP Stack trace:
+[13-May-2019 01:04:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:05:25 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 88
+[13-May-2019 01:05:25 UTC] PHP Stack trace:
+[13-May-2019 01:05:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:09:56 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 89
+[13-May-2019 01:09:56 UTC] PHP Stack trace:
+[13-May-2019 01:09:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:09:56 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 89
+[13-May-2019 01:09:56 UTC] PHP Stack trace:
+[13-May-2019 01:09:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:14:22 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 89
+[13-May-2019 01:14:22 UTC] PHP Stack trace:
+[13-May-2019 01:14:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 01:14:24 UTC] PHP Fatal error:  Call to a member function getCode() on a non-object in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 89
+[13-May-2019 01:14:24 UTC] PHP Stack trace:
+[13-May-2019 01:14:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 02:21:18 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 64
+[13-May-2019 02:21:18 UTC] PHP Stack trace:
+[13-May-2019 02:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 02:21:18 UTC] PHP   2. log() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:64
+[13-May-2019 02:21:21 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 64
+[13-May-2019 02:21:21 UTC] PHP Stack trace:
+[13-May-2019 02:21:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 02:21:21 UTC] PHP   2. log() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:64
+[13-May-2019 02:21:22 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 64
+[13-May-2019 02:21:22 UTC] PHP Stack trace:
+[13-May-2019 02:21:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 02:21:22 UTC] PHP   2. log() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:64
+[13-May-2019 02:23:10 UTC] PHP Warning:  log() expects parameter 1 to be double, string given in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 64
+[13-May-2019 02:23:10 UTC] PHP Stack trace:
+[13-May-2019 02:23:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 02:23:10 UTC] PHP   2. log() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:64
+[13-May-2019 02:30:04 UTC] PHP Warning:  log() expects at least 1 parameter, 0 given in /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php on line 66
+[13-May-2019 02:30:04 UTC] PHP Stack trace:
+[13-May-2019 02:30:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:0
+[13-May-2019 02:30:04 UTC] PHP   2. log() /home/ubuntu/workspace/CST336_sp19/Timer/logIn/logIn.php:66
+[13-May-2019 04:16:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 26
+[13-May-2019 04:16:18 UTC] PHP Stack trace:
+[13-May-2019 04:16:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:0
+[13-May-2019 04:16:18 UTC] PHP   2. Session::endSession() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:3
+[13-May-2019 04:16:18 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php:26
+[13-May-2019 04:16:24 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 26
+[13-May-2019 04:16:24 UTC] PHP Stack trace:
+[13-May-2019 04:16:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:0
+[13-May-2019 04:16:24 UTC] PHP   2. Session::endSession() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:3
+[13-May-2019 04:16:24 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php:26
+[13-May-2019 04:16:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 26
+[13-May-2019 04:16:25 UTC] PHP Stack trace:
+[13-May-2019 04:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:0
+[13-May-2019 04:16:25 UTC] PHP   2. Session::endSession() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:3
+[13-May-2019 04:16:25 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php:26
+[13-May-2019 04:16:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 26
+[13-May-2019 04:16:25 UTC] PHP Stack trace:
+[13-May-2019 04:16:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:0
+[13-May-2019 04:16:25 UTC] PHP   2. Session::endSession() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:3
+[13-May-2019 04:16:25 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php:26
+[13-May-2019 04:17:17 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 26
+[13-May-2019 04:17:17 UTC] PHP Stack trace:
+[13-May-2019 04:17:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:0
+[13-May-2019 04:17:17 UTC] PHP   2. Session::endSession() /home/ubuntu/workspace/CST336_sp19/Timer/api/endSession.php:3
+[13-May-2019 04:17:17 UTC] PHP   3. session_destroy() /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php:26

@@ -121,3 +121,19 @@ Stack trace:
 #0 /home/ubuntu/workspace/CST336_sp19/Project5/index.php(76): PDOStatement->execute(Array)
 #1 {main}
   thrown in /home/ubuntu/workspace/CST336_sp19/Project5/index.php on line 76
+[12-May-2019 18:42:50 UTC] PHP Fatal error:  Class 'Session' not found in /home/ubuntu/workspace/CST336_sp19/Timer/index.php on line 4
+[12-May-2019 18:42:50 UTC] PHP Stack trace:
+[12-May-2019 18:42:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/index.php:0
+[12-May-2019 18:47:20 UTC] PHP Fatal error:  Class 'Session' not found in /home/ubuntu/workspace/CST336_sp19/Timer/index.php on line 4
+[12-May-2019 18:47:20 UTC] PHP Stack trace:
+[12-May-2019 18:47:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/index.php:0
+[12-May-2019 18:47:58 UTC] PHP Warning:  require(/api/Session.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/CST336_sp19/Timer/index.php on line 2
+[12-May-2019 18:47:58 UTC] PHP Stack trace:
+[12-May-2019 18:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/index.php:0
+[12-May-2019 18:47:58 UTC] PHP Fatal error:  require(): Failed opening required '/api/Session.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/CST336_sp19/Timer/index.php on line 2
+[12-May-2019 18:47:58 UTC] PHP Stack trace:
+[12-May-2019 18:47:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/index.php:0
+[12-May-2019 21:29:06 UTC] PHP Fatal error:  Access to undeclared static property: Session::$_SESSION in /home/ubuntu/workspace/CST336_sp19/Timer/api/Session.php on line 25
+[12-May-2019 21:29:06 UTC] PHP Stack trace:
+[12-May-2019 21:29:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/CST336_sp19/Timer/index.php:0
+[12-May-2019 21:29:06 UTC] PHP   2. Session::getSession() /home/ubuntu/workspace/CST336_sp19/Timer/index.php:4

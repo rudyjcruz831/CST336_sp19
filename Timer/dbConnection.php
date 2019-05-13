@@ -1,13 +1,12 @@
 <?php
 
 
-class dhb{
+class Dbh{
         private $host;
         private $dbname;
         private $username;
         private $password;
-        
-        protected function getDatabaseConnection(){
+        public function getDatabaseConnection(){
             $connUrl = getenv('JAWSDB_MARIA_URL');
             $hasConnUrl = !empty($connUrl);
             $connParts = null;
@@ -18,12 +17,15 @@ class dhb{
                 $dbname = $hasConnUrl ? ltrim($connParts['path'],'/') : 'schedules';
                 $username = $hasConnUrl ? $connParts['user'] : getenv('C9_USER');
                 $password = $hasConnUrl ? $connParts['pass'] : '';
+                try {
+                    $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+                    $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+                    return $dbConn;
+                } catch (PDOException $e) {
+                    echo "Connection failed: " .$e->getMessage();
+                }
+         
                 
-                $dbConn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-                
-                $dbConn -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-                
-                return $dbConn;
         }
     
 } 

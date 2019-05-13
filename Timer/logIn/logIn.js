@@ -5,15 +5,43 @@ $(document).on('click', '.updateLink1', function() {
 });
 $(document).ready(function(){
     
+    $("#logInButton").on(click, function(){
+        
+    }); // end of login In button (no modal)
     
     
-    $.ajax({
-        type: "POST",
-        url: "logIn.php",
-        dataType: "json",
-        data : {},
+    $("#signUpbuttonModel").on('click', function(){
+        // e.preventDefault();
+        var firstName = $("#firstNameModal").val();
+        var secondName = $("#lastNameModal").val();
+        var email = $("#inputEmailModal").val();
+        var password = $("#inputPasswordModel").val();
+        
+        if(firstName === "" || secondName === "" || email === "" || password == "")
+        {
+            console.log("text insode skmasdlkfanfdl");
+        }
+        else{
+            $.ajax({
+            type: "POST",
+            url: "logIn.php",
+            dataType: "json",
+            data: {
+            "name": $("#firstNameModal").val(),
+            "lastName":secondName,    
+            "email": email,
+            "password" :password,
+        },
         success:function(data, status){
-            console.log(data);
+            if(data['success'] == false)
+            {
+                console.log("Hello World")
+            }
         } 
-    });//end of ejax call to logIn.php
-}); // end of document ready 
+        
+        });//end of Sign Up button Listener Modal
+            window.location = "../index.html"
+        }
+    
+}); // end of document ready
+});

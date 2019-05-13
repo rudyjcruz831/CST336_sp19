@@ -1,8 +1,5 @@
 <?php
-    // session_start();
-    // $_SESSION['first'] = 'rudy';
-    
-    echo json_encode($_SESSION);
-    
-
+    require 'api/Session.php';
+    Session::start();
+    echo Session::getSession();
 ?>

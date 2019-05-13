@@ -14,6 +14,18 @@ $(document).on('click', '.updateLink', function() {
 $(document).ready(function() {$
     $("#logOutButton").on('click', function(){
         console.log("Log out Butten press");
+        $.ajax({
+            type: "GET",
+            url: "api/endSession.php",
+            dataType: "json",
+            success:function(data, status)
+            {
+                console.log(data)
+            }
+        });//end of ajax call for session destroy
+        window.location = "logIn/logIn.html"
+        
+        
     });// end of logOutBotton
     $.ajax({
         type: "GET",
@@ -23,11 +35,7 @@ $(document).ready(function() {$
             console.log(data);
         } 
     }); // end of ajax call
-    
-// <?php
-//  session_start();
-//  $_SESSION['first'] = 'rudy';
- 
-// ?>
+    $('#userNameInNav').html("Welcome ")    
+
     
 }); // end of docuemtn ready
